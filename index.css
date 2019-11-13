@@ -7,3 +7,35 @@
 .btn {
   @apply bg-blue-500 text-white font-bold py-2 px-4;
 }
+
+.carousel {
+  width: fit-content;
+  transition: all 1s ease-in;
+}
+
+
+.carousel-link {
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-link li {
+  display: inline;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-left {
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.carousel-right {
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

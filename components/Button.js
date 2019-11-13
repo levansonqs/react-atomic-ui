@@ -23,7 +23,7 @@ function ButtonIcons({ children, onClick }) {
       onClick={onClick}
     >
       <svg
-        class="fill-current w-4 h-4 mr-2"
+        className="fill-current w-4 h-4 mr-2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
       >
